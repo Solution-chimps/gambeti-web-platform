@@ -1,0 +1,14 @@
+# logs
+error_log
+*.log
+
+# uploads do site
+public_html/uploads/
+
+# pastas do servidor
+mail/
+etc/
+
+# arquivos do sistema
+.DS_Store
+Thumbs.db
