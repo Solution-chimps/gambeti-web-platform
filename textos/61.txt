@@ -1,0 +1,66 @@
+O papel dos vasos de press&atilde;o no sistema com am&ocirc;nia<br />
+Nos sistemas frigor&iacute;ficos, alguns vasos se destacam:<br />
+- Separador de l&iacute;quido: protege o compressor do arraste de l&iacute;quido e evita golpes de l&iacute;quido, prolongando a vida &uacute;til do equipamento.<br />
+- Reservat&oacute;rio de l&iacute;quido (liquid receiver): estabiliza o invent&aacute;rio de am&ocirc;nia e facilita manobras como paradas e drenagens.<br />
+- Acumulador de suc&ccedil;&atilde;o e intercoolers/economizadores: regulam transientes e melhoram a efici&ecirc;ncia energ&eacute;tica do ciclo.<br />
+- Separadores de &oacute;leo e vasos auxiliares: mant&ecirc;m a performance do compressor e a estabilidade do sistema.<br />
+<br />
+Riscos espec&iacute;ficos em vasos com am&ocirc;nia<br />
+- Corros&atilde;o sob isolamento (CUI): comum em vasos e linhas frias quando h&aacute; falhas na barreira de vapor e entrada de umidade; o metal pode perder espessura sem sinais externos evidentes.<br />
+- Trinca por corros&atilde;o sob tens&atilde;o (SCC): ocorre quando material suscet&iacute;vel, ambiente agressivo e tens&otilde;es se combinam. Em sistemas com am&ocirc;nia, aten&ccedil;&atilde;o redobrada a soldas e regi&otilde;es com tens&otilde;es residuais; evite ligas de cobre no circuito com NH3.<br />
+- Corros&atilde;o interna por &aacute;gua e contaminantes: a presen&ccedil;a de &aacute;gua e oxig&ecirc;nio acelera danos; drenagens e controle de pureza s&atilde;o fundamentais.<br />
+- Eros&atilde;o/corros&atilde;o-eros&atilde;o: em mudan&ccedil;as bruscas de dire&ccedil;&atilde;o e em zonas de alta velocidade, especialmente em linhas de l&iacute;quido e de descarga.<br />
+- Golpes de ar&iacute;ete e vibra&ccedil;&otilde;es: transientes de opera&ccedil;&atilde;o e suporta&ccedil;&atilde;o inadequada favorecem trincas em bocais e soldas.<br />
+Para aprofundar a perspectiva de seguran&ccedil;a em instala&ccedil;&otilde;es com am&ocirc;nia, consulte nosso artigo no blog (https://www.gambeti.com.br/blog/2025/06/entendendo-a-nr13-treinamento-de-seguranca-para-instalacoes-frigorificas-com-amonia-com-foco-na-nr13-e-prevencao-de-vazamentos.html).<br />
+<br />
+Conformidade com a NR-13 e documenta&ccedil;&atilde;o<br />
+A NR-13 estabelece requisitos de projeto, opera&ccedil;&atilde;o, manuten&ccedil;&atilde;o e inspe&ccedil;&atilde;o de vasos de press&atilde;o, incluindo:<br />
+- Inspe&ccedil;&otilde;es obrigat&oacute;rias: inicial, peri&oacute;dica e extraordin&aacute;ria (ap&oacute;s eventos como paradas prolongadas, mudan&ccedil;as de local, danos mec&acirc;nicos, vazamentos).<br />
+- Prontu&aacute;rio e registro de seguran&ccedil;a: documenta&ccedil;&atilde;o atualizada, com memorial de c&aacute;lculo, PMTA, procedimentos, relat&oacute;rios e hist&oacute;rico de inspe&ccedil;&otilde;es. Para entender a import&acirc;ncia do prontu&aacute;rio, veja nosso conte&uacute;do (https://www.gambeti.com.br/blog/2024/04/entendendo-a-nr13-importancia-e-aplicacoes-do-prontuario-do-equipamento.html).<br />
+- Execu&ccedil;&atilde;o por profissional legalmente habilitado e equipe capacitada, com emiss&atilde;o de laudos e relat&oacute;rios t&eacute;cnicos. Conhe&ccedil;a nossa p&aacute;gina de inspe&ccedil;&otilde;es (http://www.gambeti.com.br/inspecoes) e a &aacute;rea de laudos (https://www.gambeti.com.br/laudos).<br />
+- Treinamentos NR-13 para equipes: forma&ccedil;&atilde;o e reciclagem para operadores de vasos e unidades de processo, fundamentais em frigor&iacute;ficos. Consulte Treinamentos NR-13 (https://www.gambeti.com.br/treinamentos-por-nr/NR13).<br />
+<br />
+Como planejar uma inspe&ccedil;&atilde;o eficaz<br />
+1) Defina o escopo por risco e criticidade<br />
+Classifique os vasos pelo impacto em seguran&ccedil;a, meio ambiente e produ&ccedil;&atilde;o. Itens com maior press&atilde;o/volume, grande invent&aacute;rio de am&ocirc;nia, proximidade de &aacute;reas ocupadas ou hist&oacute;rico de anomalias devem ter prioridade. Mantenha a documenta&ccedil;&atilde;o organizada e atualizada; se precisar de apoio, veja a p&aacute;gina de inspe&ccedil;&otilde;es (http://www.gambeti.com.br/inspecoes).<br />
+<br />
+2) Prepara&ccedil;&atilde;o segura e acesso<br />
+Antes da inspe&ccedil;&atilde;o, garanta bloqueios, al&iacute;vio de press&atilde;o, drenagem de l&iacute;quido e purga adequada. Caso ocorra entrada interna, aplique procedimentos de espa&ccedil;o confinado. Planeje andaimes, ventila&ccedil;&atilde;o, ilumina&ccedil;&atilde;o e EPIs. Documente permiss&otilde;es e checklists; a emiss&atilde;o de laudos e relat&oacute;rios pode ser integrada aos seus processos (https://www.gambeti.com.br/laudos).<br />
+<br />
+3) Inspe&ccedil;&atilde;o externa<br />
+Avalie costado, cabeceiros, bocais, refor&ccedil;os, suportes e bases. Procure evid&ecirc;ncias de vazamento (escarcha, manchas), corros&atilde;o geral e localizada, danos mec&acirc;nicos e deforma&ccedil;&otilde;es. Em sistemas frios, a CUI &eacute; um ponto de aten&ccedil;&atilde;o: abra &ldquo;janelas&rdquo; no isolamento por amostragem, verifique selagens, chaparia e barreira de vapor, e confirme a drenagem adequada.<br />
+<br />
+4) Inspe&ccedil;&atilde;o interna (quando aplic&aacute;vel e segura)<br />
+Com o vaso preparado, avalie corros&atilde;o generalizada e localizada, pites, eros&atilde;o em trajet&oacute;rias de alta velocidade, condi&ccedil;&otilde;es de internos (defletores, separadores, calhas) e integridade das soldas/zonas afetadas pelo calor. Em materiais suscet&iacute;veis, investigue sinais de SCC nas regi&otilde;es mais tensionadas.<br />
+<br />
+5) Ensaios n&atilde;o destrutivos (END) e testes<br />
+- Ultrassom de espessura (UT): base para c&aacute;lculo de remanescente de vida e defini&ccedil;&atilde;o de pr&oacute;ximos intervalos.<br />
+- L&iacute;quidos penetrantes (LP) e part&iacute;culas magn&eacute;ticas (PM): pesquisa de trincas superficiais em soldas e &aacute;reas cr&iacute;ticas; PM para materiais ferromagn&eacute;ticos.<br />
+- Radiografia/ultrassom avan&ccedil;ado: quando necess&aacute;rio para avaliar descontinuidades volum&eacute;tricas.<br />
+- Testes funcionais: verifica&ccedil;&atilde;o de man&ocirc;metros, pressostatos, alarmes e v&aacute;lvulas de seguran&ccedil;a (calibra&ccedil;&atilde;o peri&oacute;dica conforme plano de manuten&ccedil;&atilde;o).<br />
+Veja como a Gambeti conduz inspe&ccedil;&otilde;es e END na p&aacute;gina de Inspe&ccedil;&otilde;es (http://www.gambeti.com.br/inspecoes).<br />
+<br />
+6) Crit&eacute;rios de aceita&ccedil;&atilde;o e a&ccedil;&otilde;es corretivas<br />
+Baseie-se na NR-13 e nos c&oacute;digos de projeto. Em caso de perda de espessura, reavalie PMTA, c&aacute;lculos de espessura m&iacute;nima e integridade estrutural. Aplique reparos com procedimentos qualificados e registre tudo em laudos para manter a rastreabilidade (https://www.gambeti.com.br/laudos). Ap&oacute;s reparos que afetem a parte pressurizada, o teste hidrost&aacute;tico pode ser requerido conforme avalia&ccedil;&atilde;o t&eacute;cnica.<br />
+<br />
+Boas pr&aacute;ticas para aumentar a confiabilidade<br />
+- Monitoramento sistem&aacute;tico: estabele&ccedil;a uma malha de pontos fixos para UT e compare tend&ecirc;ncias a cada ciclo de inspe&ccedil;&atilde;o.<br />
+- Isolamento e pintura: preserve a integridade da barreira de vapor, selagens e chaparia; mantenha o revestimento anticorrosivo do costado. Planeje &ldquo;janelas&rdquo; de inspe&ccedil;&atilde;o para CUI em pontos cr&iacute;ticos.<br />
+- Ajustes operacionais: minimize transientes (partidas e paradas) sem planejamento; revise suporta&ccedil;&atilde;o e ancoragens para reduzir vibra&ccedil;&atilde;o e esfor&ccedil;os em bocais.<br />
+- Gest&atilde;o de &aacute;gua e contaminantes: implemente rotinas de drenagem e controle de pureza da am&ocirc;nia para reduzir corros&atilde;o interna.<br />
+- Capacita&ccedil;&atilde;o cont&iacute;nua: operadores e mantenedores bem treinados identificam anomalias cedo e executam manobras de modo seguro. Veja o portf&oacute;lio de treinamentos (https://www.gambeti.com.br/treinamentos) e, especificamente, Treinamentos NR-13 (https://www.gambeti.com.br/treinamentos-por-nr/NR13). Se voc&ecirc; precisa forma&ccedil;&atilde;o espec&iacute;fica, confira: Forma&ccedil;&atilde;o para Operadores NR-13 (http://www.gambeti.com.br/treinamento/treinamento-nr13-formacao-para-operadores-de-vasos-de-pressao-e-unidades-de-processos) e Reciclagem NR-13 (http://www.gambeti.com.br/treinamento/treinamento-nr13-reciclagem-para-operadores-de-vasos-de-pressao-e-unidades-de-processos).<br />
+<br />
+Periodicidade e estrat&eacute;gia de inspe&ccedil;&atilde;o<br />
+A NR-13 define periodicidades m&aacute;ximas, mas o ideal &eacute; ajustar intervalos conforme risco e condi&ccedil;&atilde;o. Vasos cr&iacute;ticos (por exemplo, separadores de l&iacute;quido ligados &agrave; suc&ccedil;&atilde;o de compressores e reservat&oacute;rios pr&oacute;ximos a &aacute;reas ocupadas) podem exigir intervalos menores e densidade maior de pontos de medi&ccedil;&atilde;o. Integre os resultados em laudos e relat&oacute;rios t&eacute;cnicos para tomada de decis&atilde;o e planejamento de manuten&ccedil;&atilde;o (https://www.gambeti.com.br/laudos). Para vis&atilde;o de integridade em equipamentos relacionados (como caldeiras e trocadores), veja nosso conte&uacute;do t&eacute;cnico no blog (https://www.gambeti.com.br/blog/2024/12/inspecao-de-integridade-de-caldeiras-de-acordo-com-o-asme-e-a-nr13.html).<br />
+<br />
+Checklist r&aacute;pido para a pr&oacute;xima parada<br />
+- Documenta&ccedil;&atilde;o revisada: prontu&aacute;rio, &uacute;ltima inspe&ccedil;&atilde;o, plano aprovado e cronograma de END (http://www.gambeti.com.br/inspecoes).<br />
+- Prepara&ccedil;&atilde;o segura: bloqueios, drenagens, purga, controle de espa&ccedil;o confinado e EPIs.<br />
+- Varredura externa: CUI (janelas no isolamento), corros&atilde;o, danos mec&acirc;nicos, suportes e bases.<br />
+- END: UT de espessura nos pontos mapeados; LP/PM em soldas e &aacute;reas cr&iacute;ticas.<br />
+- Dispositivos de prote&ccedil;&atilde;o: verifica&ccedil;&atilde;o de man&ocirc;metros, pressostatos, alarmes e v&aacute;lvulas de seguran&ccedil;a (calibra&ccedil;&atilde;o conforme plano).<br />
+- Conclus&atilde;o: relat&oacute;rio/laudo com recomenda&ccedil;&otilde;es priorizadas, prazos e escopo de reparos (https://www.gambeti.com.br/laudos).<br />
+- Pr&oacute;ximo passo: agende com a equipe para execu&ccedil;&atilde;o e atualiza&ccedil;&atilde;o dos registros. Fale conosco (https://www.gambeti.com.br/contato).<br />
+<br />
+Conclus&atilde;o<br />
+Inspecionar vasos de press&atilde;o em sistemas com am&ocirc;nia &eacute; uma decis&atilde;o estrat&eacute;gica que impacta seguran&ccedil;a, disponibilidade e custo total de propriedade. Com um plano bem estruturado, END adequados, documenta&ccedil;&atilde;o em dia e equipes capacitas, &eacute; poss&iacute;vel prevenir falhas, reduzir paradas e estender a vida &uacute;til de separadores e reservat&oacute;rios de l&iacute;quido. A Gambeti oferece inspe&ccedil;&otilde;es, laudos e treinamentos para apoiar seu frigor&iacute;fico em todas as etapas, da an&aacute;lise ao cumprimento da NR-13. Para iniciar agora, entre em contato (https://www.gambeti.com.br/contato) ou explore nossa &aacute;rea de servi&ccedil;os (https://www.gambeti.com.br/servicos) e o blog t&eacute;cnico (https://www.gambeti.com.br/blog).

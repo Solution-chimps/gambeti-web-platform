@@ -1,0 +1,592 @@
+@charset "utf-8";
+/* CSS Document */
+.campotags{
+	display:none;
+}
+.arealabel{
+	float:left;
+	margin:1px;
+	width:auto;
+	height:auto;
+	padding:1%;
+	background-color:#ededed;
+	border-radius:10px;
+	border:solid 1px #dedddd;
+	cursor:pointer;
+}
+.campotags:checked + .arealabel{
+	background-color:#cef1af;
+	border:solid 1px #badf99;	
+}
+html,body{
+	margin:0px;
+	width:100%;
+	height:100%;
+	background-color:#eee;
+}
+fieldset{
+	border:solid 1px #CCC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width:450px;	
+}
+.arredondarfoto{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+.caixalogin{
+	border:solid 1px #CCC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color:#FFF;
+	padding:10px;
+}
+h1{
+	font:bold 28px Arial, Helvetica, sans-serif;
+	color:#333;
+	margin:0px;
+}
+#menutopo{
+	margin:auto;
+	position:fixed;
+	width:100%;
+	height:33px;
+	background-image:URL("../default/fundotopo.png");
+}
+.bttopo{
+	float:right;
+	margin-top:2px;
+	height:16px;
+	background-image:URL("../default/fundotopo.png");
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	font:bold 10px Arial, Helvetica, sans-serif;
+	color:#FFF;
+	line-height:16px;
+	padding:4px;
+	-moz-box-shadow:    1px 1px 1px 1px #525252;
+	-webkit-box-shadow: 1px 1px 1px 1px #525252;
+	box-shadow:         1px 1px 1px 1px #525252;
+	cursor:pointer;
+}
+.fotoprincipal{
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	height:120px;	
+}
+#alinhadormenutopo{
+	margin:auto;
+	width:1140px;
+	height:33px;
+}
+#tbconteudo{
+	margin:auto;
+	width:1140px;
+	background-color:#FFF;
+}
+#linhatopo{
+	height:33px;
+}
+#linhalogo{
+	height:120px;
+}
+#linhamenu{
+	width:270px;	
+}
+.btmenu{
+	float:left;
+	width:270px;
+	height:31px;
+	border-left:solid 4px #cccccc;
+	font:normal 13px Arial, Helvetica, sans-serif;
+	line-height:31px;
+	color:#6d6d6d;
+}
+.btmenu:hover{
+	float:left;
+	width:270px;
+	height:31px;
+	border-left:solid 4px #333;	
+	font:normal 13px Arial, Helvetica, sans-serif;
+	color:#fff;
+	line-height:31px;
+	background-color:#666;
+	cursor:pointer;
+}
+.btmenuativo{
+	float:left;
+	width:270px;
+	height:31px;
+	border-left:solid 4px #000;	
+	font:normal 13px Arial, Helvetica, sans-serif;
+	line-height:31px;
+	color:#000;	
+
+}
+#chamadapagina{
+	float:left;
+	width:100%;
+	height:67px;
+	background-image:URL("../default/fundobarra.png");
+	-webkit-border-radius: 6px 0px 0px 6px;
+	-moz-border-radius: 6px 0px 0px 6px;
+	border-radius: 6px 0px 0px 6px;
+	font:bold 26px Arial, Helvetica, sans-serif;
+	color:#FFF;
+	text-align:left;
+	line-height:17px;
+	text-shadow: 1px 1px #2a2929;
+	margin-bottom:16px;	
+}
+#linhaconteudo{
+	font:normal 14px Arial, Helvetica, sans-serif;
+}
+.abaativa{
+	float:left;
+	height:29px;
+	padding:8px;
+	border:solid 1px #dddddd;	
+	-webkit-border-radius: 6px 6px 0px 0px;
+	-moz-border-radius: 6px 6px 0px 0px;
+	border-radius: 6px 6px 0px 0px;
+	line-height:30px;
+	border-bottom:solid 1px #fff;		
+	z-index:999;
+	background-color:#fff;
+}
+.abas{
+	float:left;
+	height:30px;
+	padding:8px;
+	line-height:30px;
+	cursor:pointer;
+}
+#espacoabas{
+	float:left;
+	width:96%;
+	height:46px;
+	border-bottom:solid 1px #dddddd;
+	z-index:9;
+}
+.abas:hover{
+	float:left;
+	height:30px;
+	padding:8px;
+	-webkit-border-radius: 6px 6px 0px 0px;
+	-moz-border-radius: 6px 6px 0px 0px;
+	border-radius: 6px 6px 0px 0px;
+	line-height:30px;
+	background-color:#eeeeee;
+}
+.conteudos{
+	float:left;
+	width:100%;
+	height:auto;
+	display:none;
+}
+#menurodape{
+	margin:auto;
+	bottom:0px;
+	position:fixed;
+	width:100%;
+	height:33px;
+	background-color:#000;
+	line-height:33px;
+	text-align:center;
+}
+#menurodape a{
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#FFF;
+	text-decoration:none;
+	line-height:33px;	
+}
+#menurodape{
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#FFF;	
+}
+.tabelalistagem{
+	border:solid 1px #CCC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;	
+}
+.linhaindice{
+	border:solid 1px #CCC;
+	font:bold 14px Arial, Helvetica, sans-serif;
+}
+.celularindice{
+	border-right:solid 1px #CCC;
+	height:30px;
+	
+}
+
+.linhacomumpar{
+	border:solid 1px #CCC;
+	font:normal 14px Arial, Helvetica, sans-serif;
+	background-color:#f9f9f9;	
+}
+.linhacomuimpar{
+	border:solid 1px #CCC;
+	font:normal 14px Arial, Helvetica, sans-serif;
+}
+.tabelalistagem tr:hover{
+	background-color:#f5f5f5;		
+}
+.celularcomum{
+	border-top:solid 1px #CCC;	
+	border-right:solid 1px #CCC;
+	height:30px;
+}
+.celularcomumnegativa{
+	border-top:solid 1px #CCC;	
+	border-right:solid 1px #CCC;
+	height:30px;
+	color:#F00;
+}
+.btcinza{
+	height:28px;
+	margin:2px;
+	line-height:28px;
+	border:solid 1px #b3b3b3;
+	background-image:URL("../default/fundobtcinza.png");
+	cursor:pointer;
+	text-align:center;
+}
+.btlaranja{
+	height:28px;
+	margin:2px;
+	line-height:28px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background-image:URL("../default/fundobtlaranja.png");
+	cursor:pointer;
+	border:solid 1px #323232;
+	color:#FFF;
+	text-align:center;
+	width:126px;
+}
+.btvermelho{
+	height:28px;
+	margin:2px;
+	line-height:28px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background-image:URL("../default/fundobtvermelho.png");
+	cursor:pointer;
+	border:solid 1px #c44741;
+	color:#FFF;
+	text-align:center;
+	width:126px;
+}
+.btverde{
+	height:28px;
+	margin:2px;
+	line-height:28px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background-image:URL("../default/fundobtverde.png");
+	cursor:pointer;
+	border:solid 1px #52a552;
+	color:#FFF;
+	text-align:center;
+	width:126px;
+}
+.btazul{
+	height:26px;
+	margin:2px;
+	line-height:26px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background-image:URL("../default/fundobtazul.png");
+	cursor:pointer;
+	border:solid 1px #419db8;
+	color:#FFF;
+	text-align:center;
+	width:126px;
+}
+.btcinza2{
+	height:26px;
+	margin:2px;
+	line-height:26px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background-image:URL("../default/btcinza2.png");
+	border:solid 1px #dadada;
+	color:#FFF;
+	text-align:center;
+	width:126px;
+}
+.btspaginacaoinicio{
+	float:left;
+	height:7px;
+	line-height:7px;
+	-webkit-border-radius: 6px 0px 0px 6px;
+	-moz-border-radius:  6px 0px 0px 6px;
+	border-radius:  6px 0px 0px 6px;
+	background-image:URL("../default/fundobtlaranja.png");
+	cursor:pointer;
+	border:solid 1px #000;
+	color:#FFF;
+	text-align:center;
+	padding:10px;
+}
+.btspaginacao{
+	float:left;
+	height:7px;
+	line-height:7px;
+	background-image:URL("../default/fundobtlaranja.png");
+	cursor:pointer;
+	border:solid 1px #000;
+	color:#FFF;
+	text-align:center;
+	padding:10px;
+}
+.btspaginacaoativo{
+	float:left;
+	height:7px;
+	line-height:7px;
+	background-image:URL("../default/fundobtcinza.png");
+	cursor:pointer;
+	border:solid 1px #000;
+	color:#000;
+	text-align:center;
+	padding:10px;
+}
+.btspaginacaofim{
+	float:left;
+	height:7px;
+	line-height:7px;
+	-webkit-border-radius: 0px 6px 6px 0px;
+	-moz-border-radius: 0px 6px 6px 0px;
+	border-radius: 0px 6px 6px 0px;	
+	background-image:URL("../default/fundobtlaranja.png");
+	cursor:pointer;
+	border:solid 1px #000;
+	color:#FFF;
+	text-align:center;
+	padding:10px;
+}
+#caixabusca{
+	float:right;
+	width:250px;
+	height:28px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;	
+	border:solid 1px #CCC;	
+}
+#btbusca{
+	float:left;
+	background-image:URL("../default/busca.png");
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:30px;
+	height:28px;
+	border-right:solid 1px #ccc;
+	background-color:#eeeeee;
+}
+.configcampobusca{
+	float:left;
+	margin-left:5px;
+	width:205px;
+	height:26px;
+	outline:none;
+	border:none;
+	line-height:26px;
+}
+#caixadatas{
+	float:right;
+	width:160px;
+	height:28px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;	
+	border:solid 1px #CCC;
+	margin-right:4px;
+	margin-bottom:6px;
+}
+#btcalendario{
+	float:left;
+	background-image:URL("../default/calendario.png");
+	background-position:left center;
+	background-repeat:no-repeat;
+	width:60px;
+	height:28px;
+	border-right:solid 1px #ccc;
+	background-color:#eeeeee;
+	line-height:28px;
+	text-align:right;
+	padding-right:10px;
+}
+#btfiltrar{
+	float:right;
+	width:128px;
+	height:28px;
+}
+.configcampocal{
+	float:left;
+	margin-left:5px;
+	width:80px;
+	height:26px;
+	outline:none;
+	border:none;
+	line-height:26px;
+}
+.configcampomenor{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding:4px;
+	border:solid 1px #ccc;
+	height:16px;
+	width:96%;
+	outline:none;
+}
+.configtextomenor{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding:4px;
+	border:solid 1px #ccc;
+	height:80px;
+	width:96%;
+	outline:none;	
+}
+.configcampo{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding:4px;
+	border:solid 1px #ccc;
+	height:30px;
+	width:420px;
+	outline:none;
+}
+
+.configcampocima{
+	-webkit-border-radius: 6px 6px 0px 0px;
+	-moz-border-radius:  6px 6px 0px 0px;
+	border-radius:  6px 6px 0px 0px;
+	padding:4px;
+	border:solid 1px #ccc;
+	height:30px;
+	width:420px;
+	outline:none;
+}
+
+.configcampobaixo{
+	-webkit-border-radius:0px 0px 6px 6px;
+	-moz-border-radius: 0px 0px 6px 6px;
+	border-radius: 0px 0px 6px 6px;
+	padding:4px;
+	border:solid 1px #ccc;
+	height:30px;
+	width:420px;
+	outline:none;
+}
+.configtexto{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding:4px;
+	border:solid 1px #ccc;
+	height:100px;
+	width:420px;
+	outline:none;	
+}
+
+.linharodape{
+	border:solid 1px #CCC;
+	font:bold 14px Arial, Helvetica, sans-serif;
+}
+.celularrodape{
+	border-top:solid 1px #CCC;	
+	border-right:solid 1px #CCC;
+	height:30px;
+	
+}
+.produtos{
+	float:left;
+	width:250px;
+	height:276px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding:10px;
+	border:solid 1px #ccc;
+	margin:5px;
+}
+#fundoLight{
+	position:fixed;
+	*position:absolute;
+	*top:0px;
+	*left:0px;
+	width:100%;
+	height:110%;
+	background-image:URL("../default/fundoEscuro.png");
+	display:none;
+	z-index:999999999999999;
+}
+
+#fundoLightR{
+	position:fixed;
+	*position:absolute;
+	*top:0px;
+	*left:0px;
+	width:100%;
+	height:110%;
+	background-image:URL("../default/fundoEscuro.png");
+	display:none;
+	z-index:999999999999999;
+}
+#caixastatus{
+	margin:auto;
+	margin-top:30px;
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding:10px;
+}
+.btcinzacat{
+	float:left;
+	min-width:100px;
+	height:28px;
+	margin:2px;
+	line-height:28px;
+	border:solid 1px #b3b3b3;
+	background-image:URL("../default/fundobtcinza.png");
+	background-position:bottom center;
+	background-repeat:repeat-x;
+	cursor:pointer;
+	text-align:center;
+	padding:4px;
+}
+.btcinzacatativo{
+	float:left;
+	font:bold 14px Arial, Helvetica, sans-serif;	
+	min-width:100px;
+	height:28px;
+	margin:2px;
+	line-height:28px;
+	border:solid 1px #b3b3b3;
+	background-image:URL("../default/fundobtcinza.png");
+	background-position:bottom center;
+	background-repeat:repeat-x;
+	cursor:pointer;
+	text-align:center;
+	padding:4px;
+
+}

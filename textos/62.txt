@@ -1,0 +1,91 @@
+O que &eacute; a NR-10 e por que ela importa para ind&uacute;stria e facilities<br />
+A NR-10 estabelece requisitos e condi&ccedil;&otilde;es m&iacute;nimas de seguran&ccedil;a em instala&ccedil;&otilde;es e servi&ccedil;os com eletricidade. Para plantas industriais, edif&iacute;cios corporativos, hospitais, data centers, shopping centers e condom&iacute;nios comerciais, isso significa padronizar pr&aacute;ticas que evitam choques el&eacute;tricos, arcos el&eacute;tricos, inc&ecirc;ndios e falhas catastr&oacute;ficas. Entre os pilares da NR-10 destacam-se:
+<ul>
+	<li>Gest&atilde;o de riscos: identificar perigos, avaliar riscos e definir controles t&eacute;cnicos e administrativos.</li>
+	<li>Medidas de controle coletivo e individual: prote&ccedil;&atilde;o contra contatos diretos e indiretos, barreiras, intertravamentos, EPIs e EPCs.</li>
+	<li>Procedimentos e LOTO: bloqueio e etiquetagem para impedir energiza&ccedil;&atilde;o acidental durante manuten&ccedil;&atilde;o e comissionamento.</li>
+	<li>Capacita&ccedil;&atilde;o e treinamentos: forma&ccedil;&atilde;o, reciclagem e qualifica&ccedil;&atilde;o de trabalhadores conforme as atividades.</li>
+	<li>Prontu&aacute;rio das Instala&ccedil;&otilde;es El&eacute;tricas (PIE): documenta&ccedil;&atilde;o t&eacute;cnica viva, incluindo diagramas unifilares, especifica&ccedil;&otilde;es de equipamentos, relat&oacute;rios de inspe&ccedil;&atilde;o e planos de manuten&ccedil;&atilde;o.</li>
+</ul>
+Como a NBR 5410 e a NBR 5419 complementam a NR-10
+
+<ul>
+	<li>ABNT NBR 5410 (baixa tens&atilde;o): aborda projeto, execu&ccedil;&atilde;o, verifica&ccedil;&atilde;o e manuten&ccedil;&atilde;o de instala&ccedil;&otilde;es, com diretrizes para seccionamento, dispositivos de prote&ccedil;&atilde;o, dimensionamento de condutores, aterramento, equipotencializa&ccedil;&atilde;o e uso de DR onde aplic&aacute;vel. Em ambientes industriais e prediais, isso reduz desligamentos intempestivos, aquecimentos e falhas recorrentes.</li>
+	<li>ABNT NBR 5419 (SPDA): orienta avalia&ccedil;&atilde;o de risco, projeto, instala&ccedil;&atilde;o, inspe&ccedil;&atilde;o e manuten&ccedil;&atilde;o de sistemas de prote&ccedil;&atilde;o contra descargas atmosf&eacute;ricas, integrando capta&ccedil;&atilde;o, descidas, aterramento, equipotencializa&ccedil;&atilde;o e prote&ccedil;&atilde;o de linhas internas. Em estruturas cr&iacute;ticas, um SPDA conforme mitiga danos a pessoas, infraestrutura, automa&ccedil;&atilde;o, TI e processos.</li>
+</ul>
+Boas pr&aacute;ticas internacionais (IEC/IEEE) refor&ccedil;am a coordena&ccedil;&atilde;o e seletividade das prote&ccedil;&otilde;es, a integridade de inv&oacute;lucros e a gest&atilde;o do risco de arco el&eacute;trico (arc flash), ampliando a resili&ecirc;ncia da instala&ccedil;&atilde;o.<br />
+Benef&iacute;cios tang&iacute;veis para opera&ccedil;&atilde;o e manuten&ccedil;&atilde;o
+<ul>
+	<li>Menos incidentes e paradas: a aplica&ccedil;&atilde;o sistem&aacute;tica da NR-10, NBR 5410 e NBR 5419 diminui falhas, inc&ecirc;ndios e eventos de choque/arco el&eacute;trico.</li>
+	<li>Maior disponibilidade e confiabilidade: seletividade correta, aterramento adequado e SPDA eficiente contribuem para estabilidade energ&eacute;tica, protegendo ativos cr&iacute;ticos como CCMs, MCCs, UPS, geradores e sistemas HVAC.</li>
+	<li>Conformidade e seguran&ccedil;a jur&iacute;dica: documenta&ccedil;&atilde;o organizada (PIE), laudos t&eacute;cnicos e evid&ecirc;ncias de treinamento sustentam auditorias, contratos e fiscaliza&ccedil;&otilde;es.</li>
+	<li>OPEX previs&iacute;vel: reduzir emerg&ecirc;ncias e retrabalho diminui custos diretos e indiretos, al&eacute;m de preservar a reputa&ccedil;&atilde;o.</li>
+</ul>
+Como a Gambeti transforma norma em resultado<br />
+A Gambeti &eacute; especializada em Treinamentos, Laudos, Inspe&ccedil;&otilde;es e Per&iacute;cias na Engenharia de Seguran&ccedil;a do Trabalho. De acordo com o site da empresa, nossos laudos s&atilde;o amplamente aceitos no mercado, recebendo elogios em auditorias, CETESB e Minist&eacute;rio do Trabalho. Al&eacute;m disso, desde a obrigatoriedade do eSocial, nossos clientes nunca tiveram multas.<br />
+Nossas entregas principais:
+<ul>
+	<li>Laudos precisos e confi&aacute;veis:
+	<ul>
+		<li>Laudo El&eacute;trico conforme NR-10 e ABNT NBR 5410, com medi&ccedil;&otilde;es, ensaios, termografia e an&aacute;lise de seletividade e coordena&ccedil;&atilde;o de prote&ccedil;&otilde;es.</li>
+		<li>Laudo SPDA segundo ABNT NBR 5419, com avalia&ccedil;&atilde;o de risco, verifica&ccedil;&atilde;o de captores, descidas, aterramento e equipotencializa&ccedil;&atilde;o, al&eacute;m de inspe&ccedil;&otilde;es visuais e completas.</li>
+		<li>Planos de a&ccedil;&atilde;o priorizados por criticidade (risco versus impacto na produ&ccedil;&atilde;o).</li>
+	</ul>
+	</li>
+	<li>Inspe&ccedil;&otilde;es t&eacute;cnicas:
+	<ul>
+		<li>Peri&oacute;dicas, eventuais e especiais, conforme a necessidade da opera&ccedil;&atilde;o, para identificar n&atilde;o conformidades, pontos quentes, desequil&iacute;brios de carga, falhas de aterramento, aus&ecirc;ncia de DR onde requerido e vulnerabilidades em pain&eacute;is e salas el&eacute;tricas.</li>
+		<li>Inspe&ccedil;&otilde;es NR-13 para caldeiras e vasos de press&atilde;o, quando houver escopo integrado de utilidades.</li>
+	</ul>
+	</li>
+	<li>Treinamentos e capacita&ccedil;&atilde;o:
+	<ul>
+		<li>NR-10 (inicial e reciclagem) e complementares, com foco pr&aacute;tico em LOTO, an&aacute;lise de risco e resposta a emerg&ecirc;ncias.</li>
+		<li>Integra&ccedil;&atilde;o de times de manuten&ccedil;&atilde;o, opera&ccedil;&atilde;o e fornecedores (terceiros) para reduzir desvios de procedimento.</li>
+	</ul>
+	</li>
+	<li>Documenta&ccedil;&atilde;o e prontu&aacute;rios:
+	<ul>
+		<li>Elabora&ccedil;&atilde;o e atualiza&ccedil;&atilde;o do Prontu&aacute;rio das Instala&ccedil;&otilde;es El&eacute;tricas (PIE), diagramas unifilares, invent&aacute;rio de ativos, planos de inspe&ccedil;&atilde;o e manuten&ccedil;&atilde;o.</li>
+		<li>Projetos de adequa&ccedil;&atilde;o e suporte t&eacute;cnico para corre&ccedil;&otilde;es estruturais.</li>
+	</ul>
+	</li>
+	<li>Conformidade e eSocial:
+	<ul>
+		<li>Suporte completo ao envio de informa&ccedil;&otilde;es de SST, mitigando riscos de san&ccedil;&otilde;es. A Gambeti oferece servi&ccedil;os de eSocial e, conforme comunicado no site, nossos clientes n&atilde;o sofreram multas desde a obrigatoriedade.</li>
+	</ul>
+	</li>
+</ul>
+Casos t&iacute;picos onde atuamos em ind&uacute;stria e facilities
+
+<ul>
+	<li>Plantas de manufatura com desligamentos em cascata por falta de seletividade entre disjuntores.</li>
+	<li>Edif&iacute;cios corporativos com DRs ausentes em circuitos de tomadas de uso geral e manuten&ccedil;&atilde;o predial.</li>
+	<li>Hospitais e data centers com SPDA subdimensionado e equipotencializa&ccedil;&atilde;o insuficiente, afetando a continuidade de sistemas cr&iacute;ticos.</li>
+	<li>Centros comerciais com pain&eacute;is aquecendo por aperto insuficiente e conex&otilde;es oxidadas, detectados via termografia.</li>
+</ul>
+Boas pr&aacute;ticas para manter a conformidade ao longo do ciclo de vida
+
+<ul>
+	<li>Revisar o PIE ap&oacute;s modifica&ccedil;&otilde;es de layout, expans&atilde;o de cargas ou troca de pain&eacute;is.</li>
+	<li>Programar inspe&ccedil;&otilde;es e ensaios peri&oacute;dicos, incluindo termografia em regime de carga.</li>
+	<li>Testar dispositivos de prote&ccedil;&atilde;o (DR, disjuntores) e verificar ajustes de rel&eacute;s conforme estudo de seletividade.</li>
+	<li>Manter o SPDA com inspe&ccedil;&otilde;es visuais e completas nos prazos recomendados, especialmente ap&oacute;s tempestades severas.</li>
+	<li>Atualizar e reciclar treinamentos conforme atribui&ccedil;&otilde;es e mudan&ccedil;as tecnol&oacute;gicas.</li>
+	<li>Implementar e auditar rotinas de LOTO e permiss&atilde;o de trabalho.</li>
+</ul>
+Por que escolher a Gambeti
+
+<ul>
+	<li>Experi&ecirc;ncia e abrang&ecirc;ncia: entregamos Treinamentos, Laudos, Inspe&ccedil;&otilde;es e Servi&ccedil;os correlatos (diagramas unifilares, prontu&aacute;rios, invent&aacute;rios, projetos de adequa&ccedil;&atilde;o).</li>
+	<li>Aceita&ccedil;&atilde;o no mercado: laudos reconhecidos por auditores, CETESB e Minist&eacute;rio do Trabalho.</li>
+	<li>Conformidade sem surpresas: gest&atilde;o e apoio ao eSocial sem multas reportadas entre nossos clientes desde a obrigatoriedade.</li>
+	<li>Atendimento dedicado: de segunda a sexta, das 08h &agrave;s 18h, com equipe preparada para entender o seu processo.</li>
+</ul>
+Chamada para a&ccedil;&atilde;o<br />
+Quer elevar a seguran&ccedil;a el&eacute;trica e a disponibilidade da sua opera&ccedil;&atilde;o industrial ou de facilities? Fale com a Gambeti e transforme requisitos normativos em performance e tranquilidade.<br />
+Contato
+<ul>
+	<li>Telefone/WhatsApp: (11) 9.9774-2018</li>
+	<li>E-mail: <a href="mailto:comercial@gambeti.com.br" target="_blank">comercial@gambeti.com.br</a></li>
+</ul>

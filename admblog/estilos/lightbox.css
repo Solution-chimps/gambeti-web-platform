@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+/*css do lightbox*/
+	#fundoLight{
+			position:fixed;
+			*position:absolute;
+			*top:0px;
+			*left:0px;
+			width:100%;
+			height:110%;
+			background-image:URL("../default/fundoEscuro.png");
+			display:block;
+			z-index:999999999999999;
+			cursor:wait;			
+	}
+	#caixaEscuroLight{
+		margin:auto;
+		width:100px;
+		height:40px;
+		background-color:#FFF;
+		border:solid 2px #999; /*borda caixa grande*/
+		margin-top:50px;
+		padding:5px;
+		text-align:center;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;	
+		font:normal 12px Arial, Helvetica, sans-serif;
+		line-height:40px;
+
+	}
+	#fecharLight{
+		float:left;
+		width:800px;
+		height:20px;
+		text-align:right;
+		cursor:pointer;
+	}
+	#espacoImagemLight{
+		float:left;
+		width:800px;
+		height:500px;
+		text-align:center;
+		background-image:URL('../default/loading.gif');
+		overflow:hidden;
+		background-position:center center;
+		background-repeat:no-repeat;
+	}
+	#espacoTextoLight{
+		float:left;
+		width:890px;
+		height:100px;
+		padding-left:5px;
+		padding-right:5px;
+		font:normal 12px Tahoma;
+		
+	}
+	.imgAmpliada{
+		border:solid 1px #CCC; /*borda foto*/
+		max-height:600px;
+		max-width:600px;
+	}	
+
+/*fim do css do light*/

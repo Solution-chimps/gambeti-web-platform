@@ -1,0 +1,9 @@
+	@charset "utf-8";
+/* CSS Document */
+/* https://cloudconvert.com/ */
+@font-face {
+	font-family: 'gt';
+	src: url('fontes/gotham-light.otf');
+	src: local('x'), url('fontes/gotham-light.woff') format('woff'), url('fontes/gotham-light.ttf') format('truetype'), url('fontes/gotham-light.svg') format('svg'), url('fontes/gotham-light.eot') format('embedded-opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap');

@@ -1,0 +1,21 @@
+Contas de e-mail criadas.
+
+Segue as contas:
+
+comercial@gambeti.com.br
+atendimento@gambeti.com.br
+ead@gambeti.com.br
+erika@gambeti.com.br
+
+A senha de todas é:
+
+bSE-CcM^4-oD
+
+O webmail é: https://gambeti.com.br/webmail
+Para acessar use os dados acima, e a configuração no Outlook deve ser feita com os dados que estão dentro do webmail
+
+Para pegar acesse a tela inicial e vá em "Configure Mail Client" na parte de baixo.
+
+Aí lá tem os dados para o técnico registrar.
+Lembrando que primeiro você deve acessar pelo webmail para saber se virou o domínio para vocês.
+

@@ -1,0 +1,701 @@
+@charset "utf-8";
+.artigogrande{
+	float:left;
+	width:98%;
+	margin-right:2%;
+	height:auto;
+	overflow:auto;
+	margin-bottom:30px;
+}
+.fotoartigogrande{
+	float:left;
+	width:100%;
+	min-height:300px;
+	background-position:center center;
+	background-size:cover;
+	cursor:pointer;
+	margin-bottom:15px;
+}
+.fotoartigograndepostagem{
+	float:left;
+	width:100%;
+	min-height:300px;
+	background-position:center center;
+	background-size:cover;
+	margin-bottom:15px;	
+}
+#postagem img{
+	max-width:100%;
+	height:auto;
+}
+.infoartigogrande{
+	float:left;
+	width:100%;
+	height:120px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+.tituloartigo{
+	font:bold 20px cen, Verdana, Geneva, sans-serif;
+	margin:0;
+}
+.tituloartigo a{
+	text-decoration:none;
+	color:#000;
+}
+.dataartigo{
+	font:normal 10px cen, Verdana, Geneva, sans-serif;
+	margin-bottom:20px;	
+}
+.linhafinaartigo{
+	font:normal 14px cen, Verdana, Geneva, sans-serif;
+}
+
+.artigopequeno{
+	float:left;
+	width:48%;
+	margin-right:2%;
+	height:auto;
+	overflow:auto;
+	margin-bottom:30px;	
+}
+.fotoartigopequeno{
+	float:left;
+	width:100%;
+	min-height:230px;
+	/*background-position:left center;*/
+	background-position:center center;	
+	background-size:cover;
+	margin-bottom:12px;
+	cursor:pointer;
+}
+.paginacao{
+	margin-top:20px;
+	font:normal 16px cen, Verdana, Geneva, sans-serif;
+}
+.paginacao a{
+	color:#000;
+}
+.chamadacaixalateral{
+	font: bold 20px 'Sawarabi Gothic', sans-serif;
+    color: #5a3b26;
+	margin-top:10px;
+}
+.tags{
+	float:left;
+	margin:1%;
+	padding:2%;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	background-color:#eaeaea;
+	font:normal 14px cen, Verdana, Geneva, sans-serif;
+	
+}
+body{
+	margin: 0px;
+	background-color: #f4f4f4;
+}
+#topo{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	border-bottom: solid 2px #d9d9d9;
+}
+#alinhadortopo{
+	margin: auto;
+	max-width: 1100px;
+	height: auto;
+	overflow: auto;
+}
+#areatelefones, #arearedes, #areabusca, #areaiconetelefones{
+	float: right;
+	width: auto;
+	overflow: auto;
+	height: 40px;
+	margin-top: 8px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+#areatelefones{
+	font: normal 16px gt;
+	line-height: 30px;
+}
+#areabusca{
+}
+.campobusca{
+	border: solid 1px #d9d9d9;
+	border-radius: 10px 0px 0px 10px;
+	height: 25px;
+	width: 290px;
+}
+#btbusca{
+	float: right;
+	height: 29px;
+	width: 29px;
+	background-color: #d9d9d9;
+	text-align: center;
+}
+#btbusca img{
+	margin-top: 3px;
+}
+#areamenu{
+	margin:auto;
+	max-width: 1100px;
+	height: auto;
+	overflow: auto;
+	margin-top: 6px;
+}
+#arealogo{
+	float: left;
+	width: 282px;
+	height: auto;
+	overflow: auto;
+}
+#menu{
+	float: left;
+	width: calc(100% - 282px);
+	height: 36px;
+	/*margin-top: 100px;*/
+}
+#banner{
+	background-image: URL("/default/banner.jpg");
+	background-position: center center;
+	height: 600px;
+	margin-top: 10px;
+	background-size: cover;
+	cursor: pointer;
+}
+#banner2{
+	background-image: URL("/default/banner2.webp");
+	background-position: center center;
+	height: 400px;
+	margin-top: 10px;
+	background-size: cover;
+}
+#banner2 span{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font: bold 60px 'Sawarabi Gothic', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 80px #000;
+	margin-top: 180px;
+}
+#caixabranca{
+	margin: auto;
+	max-width: 1200px;
+	min-height: 200px;
+	overflow: auto;
+	background-color: #FFFFFF;
+	margin-top: -120px;
+	margin-bottom: 20px;
+}
+.imgservicos{
+	float: left;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	text-align: center;
+}
+.tituloservicos{
+	float: left;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	text-align: center;
+	font: bold 24px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;
+}
+.textoservicos{
+	float: left;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: left;	
+	font: normal 15px gt;
+	color: #515151;
+	margin-top: 14px;
+}
+.textoservicos a{	
+	font: bold 14px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;
+	margin-top: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#areasobre{
+	margin: auto;
+	max-width: 1200px;
+	height: auto;
+	overflow: auto;
+	background-image: URL("/default/bgsobre.png");
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	min-height: 556px;
+	margin-top: 80px;
+}
+#areatextosobre{
+	float: right;
+	width: 60%;
+	height: auto;
+	overflow: auto;
+	text-align: center;
+	margin-right: 4%;
+	margin-top: 50px;
+}
+#areatextosobre span{
+	font: bold 40px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;
+	text-transform: uppercase;
+}
+#areatextosobre p{
+	font: normal 26px 'Gothic A1', sans-serif;
+	color: #5a3b26;
+	
+}
+#rodape{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	background-color: #fff;
+}
+.textorodape{
+	font: normal 16px 'Gothic A1', sans-serif;
+	color: #000;	
+}
+.textorodape a{
+	color: #000;
+	text-decoration: none;
+}
+.configcamporodape{
+	float: left;
+	width: 100%;
+	height: 30px;
+	border: none;
+	background-color: #f4f4f4;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.configcampotextorodape{
+	float: left;
+	width: 100%;
+	height: 80px;
+	border: none;
+	background-color: #f4f4f4;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.configbtrodape{
+	float: right;
+	border: none;
+	background-color: #000;
+	font: bold 16px 'Sawarabi Gothic', sans-serif;
+	color: #fff;	
+}
+.textorodapeassinatura{
+	font: normal 10px 'Gothic A1', sans-serif;
+	color: #000;	
+}
+.textorodapeassinatura a{
+	color: #000;
+	text-decoration: none;	
+}
+.textopadrao{
+	font: normal 16px 'Gothic A1', sans-serif;
+	color: #5a3b26;
+	margin: 0px;
+}
+.bts{
+	float: left;
+	width: 100%;
+	height: 58px;
+	font: normal 16px 'Gothic A1', sans-serif;
+	line-height: 58px;
+	border-radius: 4px;
+	background-color: #cccccc;
+	text-align: center;
+	color: #5a3b26;
+	margin-bottom: 9px;
+}
+.btsativo{
+	background-color: #5a3b26;
+	color: #cccccc;
+}
+.bts a{
+	color: #5a3b26;
+	text-decoration: none;
+}
+.btsativo a{
+	color: #fff;
+	text-decoration: none;
+}
+.caixatreinamentos{
+	float: left;
+	width: 48%;
+	min-height: 245px;
+	border-radius: 4px;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	align-items:flex-end;/*stretch*/ /*alinhamento vertical*/
+	margin: 1%;
+}
+.titulocaixatreinamentos{
+	float: left;
+	width: 94%;
+	padding: 4%;
+	height: auto;
+	overflow: auto;
+	background-color:rgba(0, 0, 0, 0.8);
+	border-radius: 4px;
+	font: normal 16px 'Gothic A1', sans-serif;
+	color: #fff;
+}
+.titulocaixatreinamentos a{
+	text-decoration: none;
+	color: #fff;	
+	
+}
+h1{
+	font: bold 28px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;
+	margin: 0px;
+	margin-top: 10px;
+}
+.tituloform{
+	width: 96%;
+	padding: 2%;
+	height: auto;
+	overflow: auto;
+	background-color: #5a3b26;
+	font: bold 16px 'Sawarabi Gothic', sans-serif;
+	color: #fff;	
+}
+.configcampoformligacao{
+	float: left;
+	width: 47%;
+	margin: 1%;
+	background-color: #ececec;
+	height: 42px;
+	font: normal 16px 'Gothic A1', sans-serif;
+	color: #5a3b26;
+	border: none;
+	border-radius: 4px;
+}
+.configcampomensagem{
+	float: left;
+	width: 96.5%;
+	margin: 1%;
+	background-color: #ececec;
+	height: 96px;
+	font: normal 16px 'Gothic A1', sans-serif;
+	color: #5a3b26;
+	border: none;
+	border-radius: 4px;	
+}
+.configcampomensagem3{
+	float: left;
+	width: 99%;
+	margin: 0%;
+	background-color: #ececec;
+	height: 96px;
+	font: normal 16px 'Gothic A1', sans-serif;
+	color: #5a3b26;
+	border: none;
+	border-radius: 4px;	
+	margin-top: 1%;
+}
+.btformligacao{
+	float: right;
+	width: auto;
+	height: 43px;
+	background-color: #5a3b26;
+	font: bold 13px 'Sawarabi Gothic', sans-serif;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	margin: 2%;
+}
+
+.btformligacao3{
+	float: right;
+	width: auto;
+	height: 43px;
+	background-color: #5a3b26;
+	font: bold 13px 'Sawarabi Gothic', sans-serif;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	margin-top: 2%;
+}
+
+.configcampoformligacao2{
+	float: left;
+	width: 30.9%;
+	margin: 1%;
+	background-color: #fff;
+	height: 42px;
+	font: normal 16px 'Gothic A1', sans-serif;
+	color: #5a3b26;
+	border: none;
+	border-radius: 4px;
+}
+.configcampoformligacao3{
+	float: left;
+	width: 99%;
+	margin: 0%;
+	background-color: #ececec;
+	height: 42px;
+	font: normal 16px 'Gothic A1', sans-serif;
+	color: #5a3b26;
+	border: none;
+	border-radius: 4px;
+	margin-top: 1%;
+}
+#alinhadorbotao{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	text-align: center;
+}
+.btformligacao2{	
+	width: 300px;
+	height: 43px;
+	background-color: #5a3b26;
+	font: bold 13px 'Sawarabi Gothic', sans-serif;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	
+}
+.caixainspecao{
+	width: 98%;
+	padding: 1%;
+	height: auto;
+	overflow: auto;
+	background-color: #f5f5f5;
+	border-radius:4px;
+	margin-bottom: 4px;
+}
+.caixainspecaofechada{
+	width: 98%;
+	padding: 1%;
+	height: auto;
+	overflow: auto;
+	background-color: #e9e9e9;
+	border-radius:4px;
+	margin-bottom: 4px;
+}
+.tituloinspecao{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	font: bold 18px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;	
+}
+.textoinspecao{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	font: normal 13px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;;		
+}
+.caixaslaudos{
+	float: left;
+	width: 32.3%;
+	min-height: 120px;
+	overflow: auto;
+	margin: .5%;	
+	border-radius: 4px;
+	background-color: #f2f2f2;
+}
+.titulolaudos{
+	float: left;
+	width: 94%;
+	height: auto;
+	overflow: auto;
+	margin: 3%;
+	font: bold 15px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;
+	text-transform: uppercase;
+}
+.textolaudos{
+	float: left;
+	width: 94%;
+	height: auto;
+	overflow: auto;
+	margin: 3%;
+	font: normal 13px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;;
+	margin-top: 0;
+}
+
+.caixasservicos{
+	float: left;
+	width: 32.3%;
+	min-height:120px;
+	overflow: auto;
+	margin: .5%;	
+	border-radius: 4px;
+	background-color: #ffb48a;
+}
+.tituloservicos{
+	float: left;
+	width: 94%;
+	height: auto;
+	overflow: auto;
+	margin: 3%;
+	font: bold 15px 'Sawarabi Gothic', sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	text-align: left;
+}
+.textoservicospg{
+	float: left;
+	width: 94%;
+	height: auto;
+	overflow: auto;
+	margin: 3%;
+	font: normal 13px 'Sawarabi Gothic', sans-serif;
+	color: #000;;
+	margin-top: 0;
+}
+.textopaginacao{
+	font: bold 13px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;;	
+}
+.textopaginacao a{
+	font: bold 13px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;;	
+}
+.textoresultadosbusca a{
+	font: normal 14px 'Sawarabi Gothic', sans-serif;
+	color: #5a3b26;
+	text-decoration:none;
+}
+.caixaspostagens{
+	float:left;
+	width:32%;
+	min-height:326px;
+	background-color:#FFF;
+	margin-right:1%;
+	border:solid 1px #d6d7d9;
+	margin-bottom:10px;	
+	transition: all 0.5s;
+	cursor:pointer;
+}
+
+.fotopostagem{
+	float:left;
+	width:99%;
+	margin:0.5%;
+	height:228px;
+	background-size:cover;
+	background-position:center center;	
+	transition: all 0.5s;	
+}
+.caixaspostagens:hover{
+	border:solid 1px #8495a4;
+}
+.caixaspostagens:hover .titulopostagem{
+	background-color:rgba(0,0,0,0.9);
+}
+.caixaspostagens:hover .fotopostagem{
+	-webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+	filter: grayscale(100%);	
+	background-position:center center;
+}
+.titulopostagem{
+	float:left;
+	width:94%;
+	padding:3%;
+	height:44px;
+	overflow:hidden;
+	background-color:rgba(0,0,0,0.8);
+	margin-top:165px;
+	font:normal 16px cen, Verdana, Geneva, sans-serif;
+	color:#FFF;
+	transition: all 0.5s;	
+}
+.linhafinapostagem{
+	float:left;
+	width:94%;
+	padding:3%;
+	font:normal 14px cen, Verdana, Geneva, sans-serif;
+	color:#1f3c55;
+}
+.linhafinapostagem a{
+	text-decoration:none;
+		color:#1f3c55;
+
+}
+.textonoblog{
+		font: normal 16px 'Gothic A1', sans-serif;
+	color: #5a3b26;
+	margin: 0px;
+}
+
+@media only screen and (max-width: 1100px) {
+	#areanrs{
+		display: none;
+	}
+	.caixatreinamentos{
+		width: 48%;
+	}
+	#areasobre{
+		background-image: none;
+		margin-top: 10px;
+		min-height: auto;
+	}
+	#areatextosobre{
+		margin: 2%;
+		width: 96%;
+		
+	}
+	#areatextosobre span{
+		font: bold 20px 'Sawarabi Gothic', sans-serif;
+		color: #5a3b26;
+		text-transform: uppercase;
+	}
+	#areatextosobre p{
+		font: normal 18px 'Gothic A1', sans-serif;
+		color: #5a3b26;
+
+	}	
+	#arealogo, #areatelefones{
+		width: 100%;
+		text-align: center;
+		}
+	#areaiconetelefones{
+		display: none;
+	}
+	#banner{
+		height: 300px;
+	}
+	#banner2{
+		height: 110px;
+	}
+	#banner2 span{
+		height: auto;
+		font: bold 30px 'Sawarabi Gothic', sans-serif;
+		color: #fff;
+		text-transform: uppercase;
+		text-shadow: 2px 2px 20px #000;
+		margin-top: 24px;		
+	}
+	#caixabranca{
+		width: 95%;
+		margin-top: -20px;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.caixaspostagens{
+		width:100%;
+
+	}
+}

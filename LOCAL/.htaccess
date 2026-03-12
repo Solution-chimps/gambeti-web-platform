@@ -1,0 +1,98 @@
+<ifModule mod_expires.c>
+ ExpiresActive On
+ ExpiresByType image/gif "access plus 7 days"
+ ExpiresByType image/jpeg "access plus 7 days"
+ ExpiresByType image/png "access plus 7 days"
+</ifModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE image/x-icon
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/x-font
+AddOutputFilterByType DEFLATE application/x-font-truetype
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE application/x-font-otf
+AddOutputFilterByType DEFLATE application/x-font-opentype
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE font/ttf
+AddOutputFilterByType DEFLATE font/otf
+AddOutputFilterByType DEFLATE font/opentype
+# For Older Browsers Which Can't Handle Compression
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
+
+<ifModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+mod_gzip_item_include mime ^application/x-javascript.*
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+mod_gzip_item_exclude mime ^image/.*
+mod_gzip_item_include handler ^cgi-script$
+</ifModule>
+
+<IfModule mod_rewrite.c>
+	
+RewriteEngine On
+
+	RewriteRule ^whats?$ /wpp.php [NC,L]
+	RewriteRule ^whats/([a-z0-9-]+)/([a-z0-9-]+)?$ /wpp.php?numero=$1&texto=$2 [NC,L]
+
+
+
+	RewriteRule ^treinamentos?$ /treinamentos.php [NC,L]
+	RewriteRule ^treinamentos/?([0-9-]+)/?$ /treinamentos.php?ip=$1 [NC,L]
+
+	RewriteRule ^treinamentos-por-nr/([a-z0-9-]+)/?$ /treinamentos-por-nr.php?nr=$1 [NC,L]
+	RewriteRule ^treinamentos-por-nr/([a-z0-9-]+)/([0-9-]+)/?$ /treinamentos-por-nr.php?ip=$2&nr=$1 [NC,L]
+
+	RewriteRule ^treinamento/([a-z0-9-]+)?$ /treinamento.php?url=$1&tipo=treinamento
+
+	RewriteRule ^inspecoes?$ /inspecoes.php [NC,L]
+	RewriteRule ^inspecao/([a-z0-9-]+)?$ /inspecao.php?url=$1&tipo=inspecao
+
+	RewriteRule ^laudos?$ /laudos.php [NC,L]
+	RewriteRule ^laudo/([a-z0-9-]+)?$ /laudo.php?url=$1&tipo=laudo
+
+	RewriteRule ^servicos?$ /servicos.php [NC,L]
+	RewriteRule ^servico/([a-z0-9-]+)?$ /servico.php?url=$1&tipo=servico
+
+	RewriteRule ^contato?$ /contato.php [NC,L]
+
+
+	RewriteRule ^busca?$ /busca.php [NC,L]
+
+	RewriteRule ^obrigado?$ /obrigado.php [NC,L]
+
+
+	RewriteRule ^solicitarligacao?$ /scripts/envia-ligacao.php [NC,L]
+	RewriteRule ^solicitarligacao2?$ /scripts/envia-ligacao2.php [NC,L]
+	RewriteRule ^solicitarligacao3?$ /scripts/envia-ligacao3.php [NC,L]
+	RewriteRule ^solicitarligacao4?$ /scripts/envia-ligacao4.php [NC,L]
+	RewriteRule ^solicitarligacao5?$ /scripts/envia-ligacao5.php [NC,L]
+	RewriteRule ^solicitarligacao6?$ /scripts/envia-ligacao6.php [NC,L]
+	RewriteRule ^solicitarligacao7?$ /scripts/envia-ligacao7.php [NC,L]
+
+	RewriteRule ^whats?$ /wpp.php [NC,L]
+	RewriteRule ^whats/([a-z0-9-]+)/([a-z0-9-]+)?$ /wpp.php?numero=$1&texto=$2 [NC,L]
+</IfModule>
+
+#Redirecionar para HTTPS WC
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteCond %{HTTPS} off
+#RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
