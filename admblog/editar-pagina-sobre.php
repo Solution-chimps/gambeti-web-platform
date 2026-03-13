@@ -7,9 +7,9 @@
 	//carrego infos dessa noticia
 	$id=$_GET["id"];	
 $consulta= "SELECT *FROM paginas WHERE id='2'";
-$resultado = mysql_query($consulta) or die("Falha na execução da consulta");
+$resultado = $mysqli->query($consulta) or die("Falha na execução da consulta");
 
-	while($linha=mysql_fetch_assoc($resultado)){
+	while ($linha = $resultado->fetch_assoc()){
 		$id=$linha["id"];
 		$nome=$linha["nome"];			
 		$imagem=$linha["foto"];	
@@ -161,8 +161,9 @@ $totalprodutos=0;
 $id=$_GET["id"];
 //carrega todos produtos desse orcamento
 	$consulta= "SELECT *FROM textossobre WHERE idprograma='1' ORDER BY ordem";
-	$resultado = mysql_query($consulta) or die("<br />Falha na execução da consulta 1. Erro: ".mysql_error());
-	while($linha=mysql_fetch_assoc($resultado))
+	$resultado = $mysqli->query($consulta) 
+    or die("<br />Falha na execução da consulta 1. Erro: " . $mysqli->error);
+	while ($linha = $resultado->fetch_assoc())
 	{
 $totalprodutos++;		
 		$titulo=$linha["titulo"];

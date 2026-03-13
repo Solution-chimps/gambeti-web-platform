@@ -8,8 +8,8 @@ require"../scripts/conecta.php";
 require"scripts/funcoes.php";
 
 	$consulta= "SELECT *FROM usuarios WHERE id='$idUsuario'";
-	$resultado = mysql_query($consulta) or die("Falha na execução da consulta");
-	while($linha=mysql_fetch_assoc($resultado))
+	$resultado = $mysqli->query($consulta) or die("Falha na execução da consulta");
+	while ($linha = $resultado->fetch_assoc())
 	{
 		$nome=$linha["nome"];
 		//$senha=$linha["senha"];

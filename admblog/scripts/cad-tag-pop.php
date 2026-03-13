@@ -12,8 +12,7 @@
 		
 		//confiro se a tag ja existe
 	$consulta= "SELECT *FROM tags WHERE urlamigavel='$urlcriada'";
-	$resultado = mysql_query($consulta) or die("<br />Falha na execução da consulta 2. Erro: ".mysql_error());
-	if($linha=mysql_fetch_assoc($resultado))
+	$resultado = $mysqli->query($consulta) or die("<br />Falha na execução da consulta 2. Erro: " . $mysqli_error);	if($linha=mysql_fetch_assoc($resultado))
 	{
 		echo"<script>alert('Esse TAG já existe!');history.go(-1)</script>";	
 

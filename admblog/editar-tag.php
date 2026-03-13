@@ -7,9 +7,9 @@
 	//carrego infos dessa noticia
 	$id=$_GET["id"];	
 $consulta= "SELECT *FROM tags WHERE id='$id'";
-$resultado = mysql_query($consulta) or die("Falha na execução da consulta");
+$resultado = $mysqli->query($consulta) or die("Falha na execução da consulta");
 
-	while($linha=mysql_fetch_assoc($resultado)){
+	while ($linha = $resultado->fetch_assoc()){
 		$nome=$linha["nome"];
 	}
 		

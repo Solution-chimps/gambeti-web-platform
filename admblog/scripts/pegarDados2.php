@@ -5,7 +5,7 @@
 
 	require"../../scripts/conecta.php";
 	$consulta= "SELECT *FROM usuarios WHERE id='$usuarioSession'";
-	$resultado = mysql_query($consulta) or die("Falha na execução da consulta");
+	$resultado = $mysqli->query($consulta) or die("Falha na execução da consulta");
 	if($linha=mysql_fetch_assoc($resultado))
 	{
 		$idUsuario=$linha["id"];	

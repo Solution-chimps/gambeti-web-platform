@@ -213,8 +213,7 @@ if(($palavra=="")&&($dtinicio!="")){
 
 
 	
-	$resultado = mysql_query($consulta) or die("<br />Falha na execução da consulta 2. Erro: ".mysql_error());
-	while($linha=mysql_fetch_assoc($resultado))
+	$resultado = $mysqli->query($consulta) or die("<br />Falha na execução da consulta 2. Erro: " . $mysqli_error);	while ($linha = $resultado->fetch_assoc())
 	{
 		$id=$linha["id"];
 

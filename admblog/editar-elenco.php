@@ -7,9 +7,9 @@
 	//carrego infos dessa noticia
 	$id=$_GET["id"];	
 $consulta= "SELECT *FROM elenco WHERE id='$id'";
-$resultado = mysql_query($consulta) or die("Falha na execução da consulta");
+$resultado = $mysqli->query($consulta) or die("Falha na execução da consulta");
 
-	while($linha=mysql_fetch_assoc($resultado)){
+	while ($linha = $resultado->fetch_assoc()){
 		$id=$linha["id"];
 		$imagem=$linha["foto"];		
 		$departamento=$linha["departamento"];			

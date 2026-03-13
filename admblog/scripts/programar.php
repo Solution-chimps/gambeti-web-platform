@@ -106,7 +106,7 @@ rename("../../uploads/$end","../../uploads/".$novoNome);
 				
 				//consulto id dessa noticia
 				$consulta= "SELECT *FROM noticiasprog WHERE identificador='$identificadornot'";
-				$resultado = mysql_query($consulta) or die("Falha na execução da consulta");
+				$resultado = $mysqli->query($consulta) or die("Falha na execução da consulta");
 				if($linha=mysql_fetch_assoc($resultado))
 				{
 					$idNoticiaCadastradaAgora=$linha["id"];	
