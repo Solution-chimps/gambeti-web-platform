@@ -210,8 +210,7 @@ if(($palavra=="")&&($dtinicio!="")){
 	
 	//echo $consulta;
 	
-	$resultado = mysql_query($consulta) or die("<br />Falha na execução da consulta 2. Erro: ".mysql_error());
-	while($linha=mysql_fetch_assoc($resultado))
+	$resultado = $mysqli->query($consulta) or die("<br />Falha na execução da consulta 2. Erro: " . $mysqli_error);	while ($linha = $resultado->fetch_assoc())
 	{
 		$id=$linha["id"];
 
@@ -297,8 +296,7 @@ echo"
 		$inicio="0";
 	}
 	$consulta = mysql_query("SELECT COUNT(*) AS total FROM programassuaempresa$busca");
-   	$mostrarTotal = mysql_fetch_array($consulta);
-	$mostrarTotal = $mostrarTotal['total'];	
+   	$mostrarTotal = $consulta->fetch_assoc();	$mostrarTotal = $mostrarTotal['total'];	
 	
 $paginas=$mostrarTotal/$qpp;
 $paginas=ceil($paginas);
@@ -334,7 +332,7 @@ $inicio=$qttPaginasInicio*$qpp-$qpp;
 
 //verifica total de anuncios na consulta solicitada
    $result = mysql_query("SELECT COUNT(*) as Regs FROM programassuaempresa$busca");
-   $num = mysql_fetch_array($result);
+   $num = $result->fetch_assoc();
    $totalAnunciosEsse= $num['Regs'];
 
 echo"<td align=\"right\"><div class=\"btspaginacaoinicio\" onclick=\"window.location='?i=0&palavra=$palavra&qntpp=$qntpp&to=$inicioxxx2&from=$fimxxx2';\">Primeira</div>";

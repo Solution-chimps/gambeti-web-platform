@@ -19,7 +19,7 @@ else{
 require"../../scripts/conecta.php";
 $consulta= "SELECT *FROM usuariosad";
 	$resultado = mysql_query($consulta) or die("Falha na execução da consulta. Erro:".mysql_error());
-	while($linha=mysql_fetch_assoc($resultado))
+	while ($linha = $resultado->fetch_assoc())
 	{
 		$idBanco=$linha["id"];
 		$loginBanco=$linha["email"];

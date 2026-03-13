@@ -8,8 +8,7 @@ $idalbum=$_GET['idalbum'];
 //consulto nome da foto
 
 	$consulta= "SELECT *FROM fotos WHERE id='$id'";
-	$resultado = mysql_query($consulta) or die("<br />Falha na execução da consulta 2. Erro: ".mysql_error());
-	if($linha=mysql_fetch_assoc($resultado)){
+	$resultado = $mysqli->query($consulta) or die("<br />Falha na execução da consulta 2. Erro: " . $mysqli_error);	if($linha=mysql_fetch_assoc($resultado)){
 		$enderecoimagem=$linha["foto"];
 		
 			$consultax="UPDATE albuns SET imgcapa='$enderecoimagem' WHERE id='$idalbum'";
